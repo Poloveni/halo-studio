@@ -1,0 +1,9 @@
+{
+  "name": "halo-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "HALO — une étude de lumière et de mouvement, en sections réutilisables.",
+  "scripts": {"dev": "node server.mjs", "check": "node --check dist/motion.js"},
+  "engines": {"node": ">=20"}
+}

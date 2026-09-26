@@ -44,17 +44,17 @@ Le bouton « Pause » désactive la vidéo, les animations de défilement et le 
 
 ## GitHub
 
-Le projet est prêt pour un dépôt privé, par exemple `halo-studio`. Pour un dépôt créé depuis l’archive fournie :
+Dépôt du projet : [Poloveni/halo-studio](https://github.com/Poloveni/halo-studio).
+
+Pour récupérer le projet sur un autre ordinateur :
 
 ```sh
-git init -b main
-git add .
-git commit -m "Create HALO motion study"
-git remote add origin URL_DU_DEPOT
-git push -u origin main
+git clone https://github.com/Poloveni/halo-studio.git
+cd halo-studio
+npm run dev
 ```
 
-Le dossier de travail peut déjà être versionné localement. Dans ce cas, conserver son historique et ajouter simplement le dépôt distant GitHub. Le fichier `.openai/hosting.json` conserve l’identifiant d’une réservation Sites ; aucune mise en ligne Sites n’a été effectuée. Ne jamais ajouter de jeton GitHub aux fichiers du projet.
+Le code et les médias sont inclus dans le dépôt. Le dossier `dist` peut être hébergé par tout service de sites statiques. Le fichier `.openai/hosting.json` conserve l’identifiant d’une réservation Sites ; aucune mise en ligne Sites n’a été effectuée. Ne jamais ajouter de jeton GitHub aux fichiers du projet.
 
 ## Vérification rapide
 
